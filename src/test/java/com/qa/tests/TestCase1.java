@@ -55,7 +55,7 @@ public class TestCase1 {
          
 		 driver.findElement(By.linkText("Create account")).click();
 		 
-		// driver.findElement(By.xpath("//input[@id='wpName2']")).sendKeys("Farouk"); 
+		 driver.findElement(By.xpath("//input[@id='wpName2']")).sendKeys("Farouk"); 
         
 		 String title2 = driver.getTitle();
 	     System.out.println(title2);
