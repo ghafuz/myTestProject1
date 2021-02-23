@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FuntionalTesting(failed)">
+    <classes>
+      <class name="com.qa.tests.TestCase1">
+        <methods>
+          <include name="WikiMainPageTest"/>
+          <include name="closebrowser"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- com.qa.tests.TestCase1 -->
+    </classes>
+  </test> <!-- FuntionalTesting(failed) -->
+</suite> <!-- Failed suite [SeleniumTest] -->

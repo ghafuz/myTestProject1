@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="SeleniumTest" verbose="1" >
+  <test name="FuntionalTesting" >
+    <classes>
+       <class name="com.qa.tests.TestCase1" ></class>
+    </classes>
+  </test>
+  
+  </suite>
+  
